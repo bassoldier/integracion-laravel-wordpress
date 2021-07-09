@@ -20,7 +20,7 @@
         <div class="row justify-content-center align-items-center text-center h-100">
           <div class="col-lg-6">
             <h3 class="mb-4 fw-medium">{{ $postTitle}}</h3>
-            @if($postTitle === 'Descargar')
+            @if($postTitle != 'Contacto')
               {!! $postContent !!}
             @endif
           </div>
